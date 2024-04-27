@@ -208,7 +208,7 @@ _.prototype = {
 
 		if (this.autoFirst && this.index === -1) {
 			this.goto(0);
-        }
+		}
 
 		$.fire(this.input, "awesomplete-open");
 	},
@@ -280,7 +280,7 @@ _.prototype = {
 			$.fire(this.input, "awesomplete-highlight", {
 				text: this.suggestions[this.index]
 			});
-        }
+		}
 	},
 
 	select: function (selected, origin, originalEvent) {
